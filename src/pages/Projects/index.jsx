@@ -23,7 +23,7 @@ const Projects = () => {
         <ProjectContainer>
           <CardProject
             link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"src/assets/projects/doggram.png"}
+            preview={"/doggram.png"}
             name={"Doggram"}
             description={
               "Uma rede social feita para cachorros, poste foto do seu dog e interaja com diversos usuários em uma rede social onde existem apenas fotos de cachorros."
@@ -33,7 +33,7 @@ const Projects = () => {
 
           <CardProject
             link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"src/assets/projects/bikcraft.png"}
+            preview={"/bikcraft.png"}
             name={"BikCraft"}
             description={
               "A bicicleta perfeita para você, feita com carinho desde cada peça até o site, com componentes modernos e intuitivos para melhorar ainda mais a sua experiência."
@@ -43,7 +43,7 @@ const Projects = () => {
 
           <CardProject
             link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"src/assets/projects/doggram.png"}
+            preview={"/doggram.png"}
             name={"Api Escola"}
             description={
               "Uma api feita pensado em uma escola, com CRUD para alunos."
@@ -53,7 +53,7 @@ const Projects = () => {
 
           <CardProject
             link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"src/assets/projects/doggram.png"}
+            preview={"/doggram.png"}
             name={"Mongo Agenda"}
             description={
               "A agenda de contatos que você vai amar e vai ainda facilitar a sua vida."

@@ -13,12 +13,7 @@ const CardProject = (props) => {
       <ul>
         {props.techs.map((tech, key) => (
           <li title={tech} key={key}>
-            <img
-              width={20}
-              height={20}
-              src={`src/assets/technology/${tech}.svg`}
-              alt={tech}
-            />
+            <img width={20} height={20} src={`/${tech}.svg`} alt={tech} />
           </li>
         ))}
       </ul>

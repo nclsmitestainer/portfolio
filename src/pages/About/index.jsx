@@ -2,7 +2,6 @@ import React from "react";
 import Introducion from "../../components/Introducion";
 import { IoLogoInstagram } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
-import Eye from "../../assets/eye.svg?react";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import {
   Download,
@@ -41,12 +40,14 @@ const About = () => {
                     )
                   }
                 >
-                  <Eye />
+                  <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M.2 10a11 11 0 0 1 19.6 0A11 11 0 0 1 .2 10zm9.8 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
+                  </svg>
                   Visualizar C.V
                 </Download>
               </div>
               <MyPicture
-                src="src/assets/profile.png"
+                src="/profile.png"
                 alt="author"
                 width="290"
                 height="345"

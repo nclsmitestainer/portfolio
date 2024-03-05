@@ -37,7 +37,7 @@ const Home = () => {
         <ProjectContainer>
           <CardProject
             link={"https://github.com/nclsmitestainer/dogs"}
-            preview={"src/assets/projects/doggram.png"}
+            preview={"/doggram.png"}
             name={"Doggram"}
             description={"A rede social perfeita para dogs."}
             techs={["vite", "javascript", "react"]}
@@ -45,7 +45,7 @@ const Home = () => {
 
           <CardProject
             link={"https://github.com/nclsmitestainer/bikcraft"}
-            preview={"src/assets/projects/bikcraft.png"}
+            preview={"/bikcraft.png"}
             name={"Bikcraft"}
             description={
               "A loja de bicicletas sob medida na maior modernidade."
