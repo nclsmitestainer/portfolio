@@ -2,79 +2,79 @@
   {
     "id": 2,
     "type": ["frontend"],
-    "src": "/src/assets/technology/html.svg",
+    "src": "src/assets/technology/html.svg",
     "title": "html"
   },
   {
     "id": 3,
     "type": ["frontend"],
-    "src": "/src/assets/technology/css.svg",
+    "src": "src/assets/technology/css.svg",
     "title": "css"
   },
   {
     "id": 4,
     "type": ["frontend", "backend"],
-    "src": "/src/assets/technology/javascript.svg",
+    "src": "src/assets/technology/javascript.svg",
     "title": "javascript"
   },
   {
     "id": 5,
     "type": ["frontend", "backend"],
-    "src": "/src/assets/technology/typescript.svg",
+    "src": "src/assets/technology/typescript.svg",
     "title": "typescript"
   },
   {
     "id": 6,
     "type": ["frontend"],
-    "src": "/src/assets/technology/react.svg",
+    "src": "src/assets/technology/react.svg",
     "title": "react"
   },
   {
     "id": 7,
     "type": ["frontend"],
-    "src": "/src/assets/technology/vite.svg",
+    "src": "src/assets/technology/vite.svg",
     "title": "vite"
   },
   {
     "id": 9,
     "type": ["frontend"],
-    "src": "/src/assets/technology/sass.svg",
+    "src": "src/assets/technology/sass.svg",
     "title": "sass"
   },
   {
     "id": 10,
     "type": ["frontend"],
-    "src": "/src/assets/technology/bootstrap.svg",
+    "src": "src/assets/technology/bootstrap.svg",
     "title": "bootstrap"
   },
   {
     "id": 11,
     "type": ["frontend"],
-    "src": "/src/assets/technology/styled-components.svg",
+    "src": "src/assets/technology/styled-components.svg",
     "title": "styled-components"
   },
   {
     "id": 14,
     "type": ["frontend", "backend"],
-    "src": "/src/assets/technology/git.svg",
+    "src": "src/assets/technology/git.svg",
     "title": "git"
   },
   {
     "id": 19,
     "type": ["backend"],
-    "src": "/src/assets/technology/node.svg",
+    "src": "src/assets/technology/node.svg",
     "title": "node"
   },
   {
     "id": 20,
     "type": ["backend"],
-    "src": "/src/assets/technology/express.svg",
+    "src": "src/assets/technology/express.svg",
     "title": "express"
   },
   {
     "id": 21,
     "type": ["backend"],
-    "src": "/src/assets/technology/mongo.svg",
+    "src": "src/assets/technology/mongo.svg",
     "title": "mongo"
   }
 ]

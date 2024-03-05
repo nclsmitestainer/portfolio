@@ -46,7 +46,7 @@ const About = () => {
                 </Download>
               </div>
               <MyPicture
-                src="/src/assets/profile.png"
+                src="src/assets/profile.png"
                 alt="author"
                 width="290"
                 height="345"

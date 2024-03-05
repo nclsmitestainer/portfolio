@@ -16,7 +16,7 @@ const CardProject = (props) => {
             <img
               width={20}
               height={20}
-              src={`/src/assets/technology/${tech}.svg`}
+              src={`src/assets/technology/${tech}.svg`}
               alt={tech}
             />
           </li>
