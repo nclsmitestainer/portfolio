@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "type": "professional",
+    "title": "Freelancer",
+    "subtitle": "Front-End Developer",
+    "date": "Jan 2024 - Atual",
+    "description": "Iniciei o ano de 2024 buscando trabalhos como freelancer, para praticar meu conhecimento e também adquirir experiência na área, fazendo com que assim tivesse um melhor contato com projetos reais."
+  },
+  {
+    "id": 6,
+    "type": "academic",
+    "title": "Origamid",
+    "subtitle": "Desenvolvimento Front-End",
+    "date": "Set 2023 - Cursando",
+    "description": "Conhecer HTML, CSS e JavaScript, logo após aprender sobre React para que assim possamos fazer interfaces mais interativas e de forma mais prática. A Origamid é uma plataforma completa para o desenvolvimento front-end, onde estou cursando algumas tecnologias ainda, como TypeScript e Bootstrap."
+  }
+]
