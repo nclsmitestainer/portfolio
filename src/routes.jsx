@@ -11,13 +11,12 @@ import NotFound from "./pages/NotFound";
 
 // Components
 import Aside from "./components/Aside";
-// import Footer from "./components/Footer";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 
 export const MyRoutes = () => {
   return (
     <BrowserRouter>
-      {/* <Header /> */}
+      <Header />
       <main className="main">
         <div className="content">
           <Aside />

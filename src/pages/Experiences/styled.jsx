@@ -10,6 +10,10 @@ export const ExpCard = styled.article`
   gap: 2rem;
   flex-wrap: nowrap;
   width: 100%;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
   p {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -21,9 +25,9 @@ export const ExpCard = styled.article`
 
 export const ContainerDetails = styled.div`
   display: flex;
-  flex-wrap: wrap;
   position: relative;
   width: 15rem;
+  flex-wrap: wrap;
   div {
     position: relative;
     width: 15rem;
@@ -31,6 +35,10 @@ export const ContainerDetails = styled.div`
     padding-bottom: 3rem;
     border-right-width: 1px;
     border-color: rgba(163, 163, 163, 0.5);
+    @media (max-width: 768px) {
+      border: none;
+      padding-bottom: 0;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -41,6 +49,9 @@ export const ContainerDetails = styled.div`
       border: 1.5px solid rgba(39, 52, 173, 1);
       border-radius: 9999px;
       background-color: rgb(0 0 0/1);
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
     h3 {
       font-weight: 700;

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 
 const Filters = (props) => {
@@ -17,6 +18,13 @@ const Filters = (props) => {
       {props.children}
     </button>
   );
+};
+
+Filters.propTypes = {
+  state: PropTypes.string,
+  value: PropTypes.string,
+  onClick: PropTypes.func,
+  children: PropTypes.string,
 };
 
 export default Filters;

@@ -89,4 +89,7 @@ export const Subtitle = styled.div`
 
 export const AsideBar = styled.aside`
   width: 19.5rem;
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;

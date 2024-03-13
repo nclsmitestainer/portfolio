@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 import { Title, Subtitle } from "./styled";
 
 const Introducion = (props) => {
@@ -10,6 +10,11 @@ const Introducion = (props) => {
       </div>
     </div>
   );
+};
+
+Introducion.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };
 
 export default Introducion;

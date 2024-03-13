@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Content } from "./styled.jsx";
 
 const NotFound = () => {

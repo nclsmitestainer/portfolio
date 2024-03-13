@@ -1,4 +1,3 @@
-import React from "react";
 import CardProject from "../../components/CardProject";
 import { ProjectContainer, ContainerContent } from "./styled";
 import Introducion from "../../components/Introducion";
@@ -13,9 +12,9 @@ const Projects = () => {
           subtitle="Trabalhos freelancers, pessoais & estudos"
         />
         <Description>
-          Alguns projetos os quais tive a oportunidade de atuar e projetos
-          pessoas que gosto de desenvolver para por em pratica meus aprendizados
-          e meus conhecimentos.
+          Projetos que tive a oportunidade de atuar e projetos pessoais, que
+          gosto de desenvolver para por em pratica meus aprendizados e
+          conhecimentos.
         </Description>
       </div>
 

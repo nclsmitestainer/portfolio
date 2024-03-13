@@ -14,6 +14,12 @@ export const Technology = styled.div`
   padding-bottom: 2rem;
   place-items: start;
   grid-template-columns: repeat(8, minmax(0, 1fr));
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   div {
     display: flex;
     width: 5rem;
@@ -48,6 +54,9 @@ export const ContainerProgress = styled.div`
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding-bottom: 2rem;
   gap: 2rem;
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;
 
 export const ProgressTitle = styled.div`

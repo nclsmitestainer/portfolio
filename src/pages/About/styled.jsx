@@ -24,6 +24,10 @@ export const Content = styled.div`
     margin-bottom: 2rem;
     color: rgb(212 212 212/1);
   }
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
 `;
 
 export const Download = styled.button`

@@ -1,4 +1,3 @@
-import React from "react";
 import { ContainerLabel, Error } from "./styled";
 
 const Input = ({

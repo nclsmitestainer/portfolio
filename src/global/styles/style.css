@@ -34,12 +34,38 @@ pre {
 
 body {
   color: #fafafa;
-  background: url("../../assets/bg-body.jpg") no-repeat;
+  background: url("/noise.png") no-repeat;
   background-size: cover;
   background-position: 50%;
   background-color: #171717;
+  position: relative;
   margin: 0;
   padding: 0;
+}
+
+body:after,
+body:before {
+  content: "";
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+body:before {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+body:after {
+  position: absolute;
+  top: -14rem;
+  height: 50%;
+  background: rgba(50, 100, 200, 1);
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.08;
 }
 
 a {
@@ -58,9 +84,13 @@ section {
     max(calc((100% - 90rem) / 2), 1.4rem);
 }
 
+.open {
+  display: block !important;
+}
+
 .content {
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
   width: 100%;
   height: 100%;
   display: flex;
@@ -70,6 +100,23 @@ section {
   gap: 3.5rem;
   padding: max(calc((100% - 92%) / 2), 1rem)
     max(calc((100% - 80rem) / 2), 1.4rem) 0;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    background-color: transparent;
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 0;
+  }
+  .content {
+    padding: 0;
+  }
 }
 
 .container-content {

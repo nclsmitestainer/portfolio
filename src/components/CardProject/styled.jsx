@@ -10,6 +10,9 @@ export const ProjectCard = styled.a`
   color: inherit;
   height: 23rem;
   transition: 0.3s;
+  @media (max-width: 870px) {
+    height: 26rem;
+  }
   &:hover {
     background: rgba(64, 64, 64, 0.3);
     border-color: rgba(50, 100, 200, 1);

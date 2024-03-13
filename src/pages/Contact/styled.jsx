@@ -36,6 +36,10 @@ export const SocialMedia = styled.div`
         background: rgba(64, 64, 64, 0.5);
       }
     }
+    @media (max-width: 455px) {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
 `;
 

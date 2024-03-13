@@ -1,4 +1,3 @@
-import React from "react";
 import Introducion from "../../components/Introducion";
 import { IoLogoInstagram } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
@@ -36,7 +35,7 @@ const About = () => {
                 <Download
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1DLNpRIwL18gogsibtAM0ltH12JhaPdP7/view?usp=sharing",
+                      "https://drive.google.com/file/d/1wn9E4QJ1RrFMgn1mZ74fKRTRPAnhEbRk/view?usp=sharing",
                     )
                   }
                 >
