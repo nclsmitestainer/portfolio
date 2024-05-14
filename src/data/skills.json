@@ -1,79 +1,124 @@
 [
   {
     "id": 2,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/html.svg",
     "title": "html"
   },
   {
     "id": 3,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/css.svg",
     "title": "css"
   },
   {
     "id": 4,
-    "type": ["frontend", "backend"],
+    "type": [
+      "frontend",
+      "backend"
+    ],
     "src": "/javascript.svg",
     "title": "javascript"
   },
   {
     "id": 5,
-    "type": ["frontend", "backend"],
+    "type": [
+      "frontend",
+      "backend"
+    ],
     "src": "/typescript.svg",
     "title": "typescript"
   },
   {
     "id": 6,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/react.svg",
     "title": "react"
   },
   {
     "id": 7,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/vite.svg",
     "title": "vite"
   },
   {
     "id": 9,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/sass.svg",
     "title": "sass"
   },
   {
     "id": 10,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/bootstrap.svg",
     "title": "bootstrap"
   },
   {
     "id": 11,
-    "type": ["frontend"],
+    "type": [
+      "frontend"
+    ],
     "src": "/styled-components.svg",
     "title": "styled-components"
   },
   {
+    "id": 12,
+    "type": [
+      "frontend"
+    ],
+    "src": "/tailwind.svg",
+    "title": "tailwind"
+  },
+  {
+    "id": 13,
+    "type": [
+      "frontend"
+    ],
+    "src": "/figma.svg",
+    "title": "figma"
+  },
+  {
     "id": 14,
-    "type": ["frontend", "backend"],
+    "type": [
+      "frontend",
+      "backend"
+    ],
     "src": "/git.svg",
     "title": "git"
   },
   {
     "id": 19,
-    "type": ["backend"],
+    "type": [
+      "backend"
+    ],
     "src": "/node.svg",
     "title": "node"
   },
   {
     "id": 20,
-    "type": ["backend"],
+    "type": [
+      "backend"
+    ],
     "src": "/express.svg",
     "title": "express"
   },
   {
     "id": 21,
-    "type": ["backend"],
+    "type": [
+      "backend"
+    ],
     "src": "/mongo.svg",
     "title": "mongo"
   }

@@ -1,7 +1,7 @@
-import CardProject from "../../components/CardProject";
-import { ProjectContainer, ContainerContent } from "./styled";
-import Introducion from "../../components/Introducion";
-import Description from "../../components/Description";
+import CardProject from '../../components/CardProject';
+import { ProjectContainer, ContainerContent } from './styled';
+import Introducion from '../../components/Introducion';
+import Description from '../../components/Description';
 
 const Projects = () => {
   return (
@@ -21,43 +21,43 @@ const Projects = () => {
       <ContainerContent>
         <ProjectContainer>
           <CardProject
-            link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"/doggram.png"}
-            name={"Doggram"}
+            link={'https://github.com/nclsmitestainer/dogs'}
+            preview={'/doggram.png'}
+            name={'Doggram'}
             description={
-              "Uma rede social feita para cachorros, poste foto do seu dog e interaja com diversos usuários em uma rede social onde existem apenas fotos de cachorros."
+              'Uma rede social feita para cachorros, poste foto do seu dog e interaja com diversos usuários em uma rede social onde existem apenas fotos de cachorros.'
             }
-            techs={["vite", "javascript", "react"]}
+            techs={['vite', 'javascript', 'react']}
           />
 
           <CardProject
-            link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"/bikcraft.png"}
-            name={"BikCraft"}
+            link={'https://github.com/nclsmitestainer/bikcraft'}
+            preview={'/bikcraft.png'}
+            name={'BikCraft'}
             description={
-              "A bicicleta perfeita para você, feita com carinho desde cada peça até o site, com componentes modernos e intuitivos para melhorar ainda mais a sua experiência."
+              'A bicicleta perfeita para você, feita com carinho desde cada peça até o site, com componentes modernos e intuitivos para melhorar ainda mais a sua experiência.'
             }
-            techs={["html", "css", "javascript", "figma"]}
+            techs={['html', 'css', 'javascript', 'figma']}
           />
 
           <CardProject
-            link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"/doggram.png"}
-            name={"Api Escola"}
+            link={'https://github.com/nclsmitestainer/nickcine'}
+            preview={'/nickcine.png'}
+            name={'NickCine!'}
             description={
-              "Uma api feita pensado em uma escola, com CRUD para alunos."
+              'Um catalogo de filmes desenvolvido utilizando TMDB, feito principalmente para estudo de consumo de API.'
             }
-            techs={["react", "styled-components"]}
+            techs={['react', 'tailwind']}
           />
 
           <CardProject
-            link={"https://github.com/mitestainer7?tab=repositories"}
-            preview={"/doggram.png"}
-            name={"Mongo Agenda"}
+            link={'https://github.com/mitestainer7?tab=repositories'}
+            preview={'/doggram.png'}
+            name={'Mongo Agenda'}
             description={
-              "A agenda de contatos que você vai amar e vai ainda facilitar a sua vida."
+              'A agenda de contatos que você vai amar e vai ainda facilitar a sua vida.'
             }
-            techs={["react", "node", "express", "javascript", "sass"]}
+            techs={['react', 'node', 'express', 'javascript', 'sass']}
           />
         </ProjectContainer>
       </ContainerContent>

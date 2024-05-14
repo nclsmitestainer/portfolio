@@ -1,7 +1,7 @@
-import Introducion from "../../components/Introducion";
-import { IoLogoInstagram } from "react-icons/io";
-import { FiGithub } from "react-icons/fi";
-import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import Introducion from '../../components/Introducion';
+import { IoLogoInstagram } from 'react-icons/io';
+import { FiGithub } from 'react-icons/fi';
+import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import {
   Download,
   MyPicture,
@@ -9,12 +9,12 @@ import {
   ContainerContent,
   Content,
   Contacts,
-} from "./styled";
+} from './styled';
 
 const About = () => {
   return (
     <>
-      <Introducion title={"Sobre mim"} subtitle={"Desenvolvedor Front-End"} />
+      <Introducion title={'Sobre mim'} subtitle={'Desenvolvedor Front-End'} />
       <div>
         <Container>
           <ContainerContent>
@@ -35,7 +35,7 @@ const About = () => {
                 <Download
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1wn9E4QJ1RrFMgn1mZ74fKRTRPAnhEbRk/view?usp=sharing",
+                      'https://drive.google.com/file/d/1adFxat_LweGQItylnilWd_kULL6aIjDY/view?usp=sharing',
                     )
                   }
                 >

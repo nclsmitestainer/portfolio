@@ -1,15 +1,9 @@
-import { Link } from "react-router-dom";
-import { FaArrowRightLong } from "react-icons/fa6";
-import {
-  PreviewProject,
-  ProjectCard,
-  ProjectContainer,
-  Recents,
-  ButtonRecents,
-} from "./styled";
-import Introducion from "../../components/Introducion";
-import Description from "../../components/Description";
-import CardProject from "../../components/CardProject";
+import { Link } from 'react-router-dom';
+import { FaArrowRightLong } from 'react-icons/fa6';
+import { ProjectContainer, Recents, ButtonRecents } from './styled';
+import Introducion from '../../components/Introducion';
+import Description from '../../components/Description';
+import CardProject from '../../components/CardProject';
 
 const Home = () => {
   return (
@@ -35,21 +29,18 @@ const Home = () => {
         </ButtonRecents>
         <ProjectContainer>
           <CardProject
-            link={"https://github.com/nclsmitestainer/dogs"}
-            preview={"/doggram.png"}
-            name={"Doggram"}
-            description={"A rede social perfeita para dogs."}
-            techs={["vite", "javascript", "react"]}
+            link={'https://github.com/nclsmitestainer/nickcine'}
+            preview={'/nickcine.png'}
+            name={'NickCine!'}
+            description={'O catalogo de filmes que conversa com você.'}
+            techs={['react', 'tailwind']}
           />
-
           <CardProject
-            link={"https://github.com/nclsmitestainer/bikcraft"}
-            preview={"/bikcraft.png"}
-            name={"Bikcraft"}
-            description={
-              "A loja de bicicletas sob medida na maior modernidade."
-            }
-            techs={["html", "css", "javascript"]}
+            link={'https://github.com/nclsmitestainer/dogs'}
+            preview={'/doggram.png'}
+            name={'Doggram'}
+            description={'A rede social perfeita para dogs.'}
+            techs={['vite', 'javascript', 'react']}
           />
         </ProjectContainer>
       </Recents>

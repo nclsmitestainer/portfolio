@@ -1,12 +1,12 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { IoHomeOutline } from "react-icons/io5";
-import { FaRegUserCircle } from "react-icons/fa";
-import { IoIosStarOutline, IoMdClose } from "react-icons/io";
-import { LuClipboardList } from "react-icons/lu";
-import { SlGraph } from "react-icons/sl";
-import { PiPaperPlaneTilt } from "react-icons/pi";
-import { HiOutlineMenuAlt1 } from "react-icons/hi";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { IoHomeOutline } from 'react-icons/io5';
+import { FaRegUserCircle } from 'react-icons/fa';
+import { IoIosStarOutline, IoMdClose } from 'react-icons/io';
+import { LuClipboardList } from 'react-icons/lu';
+import { SlGraph } from 'react-icons/sl';
+import { PiPaperPlaneTilt } from 'react-icons/pi';
+import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import {
   Nav,
   Menu,
@@ -14,7 +14,7 @@ import {
   HeaderStyle,
   IconMenu,
   OutSideClick,
-} from "./styled";
+} from './styled';
 
 const Header = () => {
   const [open, setOpen] = React.useState(false);
@@ -31,7 +31,7 @@ const Header = () => {
               <HiOutlineMenuAlt1 width={36} height={36} />
             )}
           </IconMenu>
-          <Menu className={open ? "open" : ""}>
+          <Menu className={open ? 'open' : ''}>
             <MenuItem>
               <NavLink to="/">
                 <IoHomeOutline />
@@ -72,7 +72,7 @@ const Header = () => {
         </Nav>
       </HeaderStyle>
       <OutSideClick
-        className={open ? "open" : ""}
+        className={open ? 'open' : ''}
         onClick={() => setOpen(!open)}
       ></OutSideClick>
     </>

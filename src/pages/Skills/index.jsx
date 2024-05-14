@@ -1,27 +1,27 @@
-import React from "react";
-import Introducion from "../../components/Introducion";
+import React from 'react';
+import Introducion from '../../components/Introducion';
 import {
   Technology,
   SoftSkills,
   ContainerProgress,
   ProgressTitle,
-} from "./styled";
-import Filters from "../../components/Tabs/Filters";
-import skills from "../../data/skills.json";
-import softskills from "../../data/softskills.json";
+} from './styled';
+import Filters from '../../components/Tabs/Filters';
+import skills from '../../data/skills.json';
+import softskills from '../../data/softskills.json';
 
 const Skills = () => {
-  const [activeTab, setActiveTab] = React.useState("frontend");
+  const [activeTab, setActiveTab] = React.useState('frontend');
 
   function handleClick(e) {
     setActiveTab(e.target.value);
     const newButton = e.target;
-    const oldButton = document.querySelector(".activeButton");
+    const oldButton = document.querySelector('.activeButton');
     if (oldButton === null) {
-      newButton.classList.add("activeButton");
+      newButton.classList.add('activeButton');
     } else {
-      oldButton.classList.remove("activeButton");
-      newButton.classList.add("activeButton");
+      oldButton.classList.remove('activeButton');
+      newButton.classList.add('activeButton');
     }
   }
 
@@ -44,7 +44,7 @@ const Skills = () => {
         {skills.map(
           (skill) =>
             skill.type.includes(activeTab) && (
-              <div key={skill.id}>
+              <div key={skill.id} title={skill.title}>
                 <img
                   width="42"
                   height="42"
